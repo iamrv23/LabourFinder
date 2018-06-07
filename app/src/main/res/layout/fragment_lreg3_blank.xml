@@ -1,0 +1,106 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/blur_wallpaper"
+    tools:context="com.rv.labourfinder.labour.LReg3BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="10dp"
+        android:layout_gravity="center"
+        android:layout_margin="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Experience"
+        android:textStyle="normal"
+        android:layout_marginLeft="40dp"/>
+
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/f3_spin1"
+        android:layout_width="270dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/colorAccent"
+        android:scrollbars="vertical"
+        android:spinnerMode="dropdown"
+        style="@style/Widget.AppCompat.Spinner.Underlined"
+        android:layoutMode="opticalBounds"
+        android:layout_margin="10dp"
+        android:layout_gravity="center">
+    </android.support.v7.widget.AppCompatSpinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About yourself"
+            android:textStyle="normal"
+            android:layout_marginLeft="40dp"/>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_margin="2dp">
+
+            <EditText
+                android:id="@+id/f3_et1"
+                android:layout_width="260dp"
+                android:layout_height="180dp"
+                android:layout_margin="10dp"
+                android:background="@color/graylight"
+                android:layout_gravity="center"
+                android:inputType="textPostalAddress"
+                android:fontFamily="monospace"
+                android:textSize="12dp"
+                android:text="Reliable and adaptable"
+                android:layout_marginLeft="2dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <CheckBox
+            android:id="@+id/f3_cb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="I agree all terms and condition."
+            android:layout_marginLeft="40dp"/>
+        <Button
+            android:id="@+id/button04"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="Done" />
+
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

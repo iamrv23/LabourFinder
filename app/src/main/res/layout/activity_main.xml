@@ -1,0 +1,84 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lay1"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="250dp"
+        app:cardElevation="10dp"
+        android:layout_gravity="center"
+        android:layout_margin="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+            <EditText
+                android:id="@+id/et1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ems="12"
+                android:hint="Username"
+                android:inputType="textPersonName"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp">
+
+                <EditText
+                    android:id="@+id/et2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:ems="12"
+                    android:hint="Password"
+                    android:inputType="textPersonName"
+                    android:fontFamily="sans-serif-smallcaps"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+
+
+            <Button
+                android:id="@+id/loginbut"
+                style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+                android:background="@color/colorAccent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:onClick="logIn"
+                android:textColor="@android:color/black"
+
+                android:text="LogIn"
+                android:ems="15"
+                android:elevation="10dp"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

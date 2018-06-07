@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom|center"
+    android:orientation="vertical"
+    android:background="@drawable/blur_wallpaper"
+    tools:context="com.rv.labourfinder.labour.MainActivityFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/button01"
+        style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:ems="18"
+        android:text="Next" />
+
+    <!--<Button-->
+        <!--android:id="@+id/button02"-->
+        <!--style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--android:ems="18"-->
+        <!--android:text="2" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/button03"-->
+        <!--style="@style/Base.TextAppearance.AppCompat.Widget.Button.Colored"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:background="@color/colorAccent"-->
+        <!--android:ems="18"-->
+        <!--android:text="3" />-->
+
+
+
+
+</LinearLayout>
